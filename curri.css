@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(202, 91, 91);
+    font-family:arial;
+}
+#nom{
+    background-color: #FDEDEC;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#info{
+    background-color: #F5EEF8 ;
+    width: 25vw;
+    height: 80vh;
+    flex-wrap: nowrap;
+
+}
+
+#aca{
+    background-color: #F4ECF7 ;
+    width: 25vw;
+    height: 80vh;
+    flex-wrap: nowrap;
+
+}
+
+#lab{
+    background-color: #E8DAEF ;
+    width: 25vw;
+    height: 80vh;
+    flex-wrap: nowrap;
+
+}
+
+.todo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin:0 auto; 
+}
